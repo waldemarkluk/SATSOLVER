@@ -1,0 +1,116 @@
+1) Wczytywanie danych
+a) Format danych wejsciowych
+model1.txt:
+
+[x1,x2,x3,x4,x5]
+x1;x3;x5.
+~x2;x3;~x5.
+~x1;~x2;x4.
+x1;~x5;~x4.
+x2;x3;x4.
+~x3;~x4;x5.
+~x2;x3;x4.
+.
+--------------------------
+plik ma postaæ CNF
+. - and
+; - or
+. na koñcu pliku koñczy wczytywania
+
+[x1,x2,x3,x4,x5] - deklaracja zmiennych opcjonalnie, zapewnia odpowiednie u³o¿enie zmiennych w wartoœciowaniu
+~ - negacja
+formu³¹ atomiczn¹ mo¿e byæ dowolny ci¹g tekstu
+
+b) Jak to dzia³a?
+szuka trybu deklaracji [...], albo wczytuje po kolei nowe formuly atomiczne do Listy o ile nie s¹ ju¿ na liœcie, wiêc mamy:
+[0]=>x1
+[1]=>x2
+[2]=>x3
+[3]=>x4
+[4]=>x5
+Klucz listy oznacza numer bitu w wartoœciowaniu
+
+c) Reprezentacja klauzuli
+Klazula sk³ada siê z dwóch masek bitowych M i V. LSB po prawej stronie.
+Maska M okreœla które zmienne wystêpuj¹ w klazuli np. dla: x1;x3;x5.
+M=10101
+Maska V okreœla czy zmienne s¹ w postaci prostej czy zanegowanej np dla: x1;x3;x5.
+V=10101
+Para M i V stanowi reprezentacjê klazuli w programie.
+
+2) Obliczanie spe³nialnoœci
+Mamy wartoœciowanie 10001 (x5,x4,x3,x2,x1), oraz klazulê x1;x3;x5.
+X=10001
+M=10101
+V=10101
+
+Wykonaj operacjê (M and not(X xor V))
+X xor V - wybierz te bity które ró¿ne i wystêpuj¹ w klauzli
+not(...) - zaneguj powy¿sze tj. wybierz takie same bity, poniewa¿ V okreœla czy jest zanegowane czy nie
+M and (...) - poddaj dzia³aniu maski zmiennych
+
+dla przyk³adu wy¿ej
+X=10001
+V=10101
+---------xor
+  00100
+---------not
+  11011
+M=10101
+---------and
+Y=10001
+
+liczba 1 w wyniku to liczba termów spe³nionych przez wartoœciowanie, wiêc jeœli > 0 to X spe³nia klauzlê, pozycje "1" okreœlaj¹ które zmienne spe³niaj¹ klauzulê (znajdzie to zastosowanie pozniej)
+
+3) Zapis
+card {} - liczebnoœæ zbioru
+sat(X,c) - X spe³nia klazulê c
+flip(X,i) - zaneguj i-ty bit
+imp(X|i) - "polepszenie" po negacji i-tego bitu w X, obliczane jako card{~sat(X,c) and sat(flip(X,i),c)} - card{sat(X,c) and ~sat(flip(X,i),c)}
+tj. ró¿nica miêdzy liczb¹ spe³nioych klazul po negacji i-tego bitu, które wczeœniej by³y nie spe³nione, a liczb¹ utraconych w wyniku negacji spe³nionych klazul
+delta(X,Y,i) - imp(X,i)+imp(Y,i) - "polepszenie" po negacji i-tego bitu w parze XY
+in(c,B) - c jest w zbiorze B
+4) Algorytmy wyboru
+a) Elite
+Wybierz samca alfa, a nastêpnie drugiego osobnika z odsetku populacji zdefiniowanego parametrem theta
+b) HAM
+Wybierz samca alfa, a nastêpnie drugiego osobnika najmniej spokrewnionego
+c) IndexedHam
+Wybierz osobnika zdefiniowanego przez index, nastêpnie najmniej spokrewnionego, zwiêksz indeks o 1
+d) Random
+Losuj 2 ró¿ne osobniki
+e) Cyclic
+Wykonuj cyklicznie wybory tj. Elite,Ham,IndexedHam,Random ... i od nowa - ró¿ne ciekawe efekty zaobserwowane
+f) Roulete - TODO
+
+
+5) Algorytmy crossover:
+a) Inteligentny
+Utwórz 2 zbiory:
+A=klazule niespe³nione przez X i Y
+B=klazule spe³nione przez X i Y
+
+Z=dziecko
+R=maska bitowa rezerwacji
+
+dla ka¿dej klazuli z A wybierz takie "i" dla którego i-ty bit R nie jest ustawiony i delta(X,Y,i) jest max, a nastêpnie go zaneguj w Z i ustaw i-ty bit w R
+
+dla ka¿dej klauzuli z B:
+temp=sat(X,c) and sat(Y,c) and in(c,B) and not(R) - bêdzie zawiera³a maskê bitów które nie zosta³y zarezerwowane poprzednio oraz spe³niaj¹ formu³ê atomiczn¹
+R=R or temp
+Z=Z or(temp and X)
+
+dla ka¿dego niezarezerwowanego bitu wybierz losow¹ wartoœæ T/F w Z
+
+utwórz bliŸniaka Z1=not(Z)
+
+dokonaj niezale¿nych mutacji Z1 i Z
+
+b) Maska
+dana jest maska M
+Z1,Z2 dzieci
+X,Y rodzice
+Z1=(M and X) or (not(M) and Y)
+Z2=(M and Y) or (not(M) and X)
+dokonaj niezale¿nych mutacji Z1 i Z2
+

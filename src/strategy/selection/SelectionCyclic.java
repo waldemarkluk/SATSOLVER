@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class SelectionCyclic implements SelectionStrategy {
     //TODO: fixme
-    private SelectionStrategy[] strategies={new SelectionSimpleElite(),new SelectionHAM(),new SelectionIndexedHAM(),new SelectionRandom()};
+    private SelectionStrategy[] strategies={new SelectionHAM(),new SelectionIndexedHAM(),new SelectionRandom(),new SelectionRoulette(),new SelectionTournament(),new SelectionSimpleElite()};
     private int cyclePosition=0;
 
     @Override

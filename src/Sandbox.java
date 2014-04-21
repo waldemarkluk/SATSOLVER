@@ -11,12 +11,13 @@ import java.awt.*;
  *         Date: 19.03.14
  *         Time: 17:36
  */
-/* LABOLATORIUM DEXTERA, jak jebnie to porządnie :D */
 
 public class Sandbox {
 
     public static void main(String [ ] args)
     {
+        //MainForm mf=new MainForm();
+
         new Thread() {
             @Override
             public void run() {

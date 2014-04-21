@@ -8,12 +8,12 @@
     <file path="/Main.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395252300900" ignored="false" />
     <file path="/Reader.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1394963398878" ignored="false" />
     <file path="/CNF_Clause.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1394964976406" ignored="false" />
-    <file path="/SAT_Solver.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395491486733" ignored="false" />
+    <file path="/SAT_Solver.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396425843957" ignored="false" />
     <file path="/Term.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395248852724" ignored="false" />
-    <file path="/Sandbox.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395487137382" ignored="false" />
-    <file path="/fragment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395490731106" ignored="false" />
-    <file path="/Clause.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395351122017" ignored="false" />
-    <file path="/LogicHelper.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395350860840" ignored="false" />
+    <file path="/Sandbox.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396265097294" ignored="false" />
+    <file path="/fragment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781781431" ignored="false" />
+    <file path="/Clause.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395769470999" ignored="false" />
+    <file path="/LogicHelper.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781157517" ignored="false" />
     <file path="/model1.txt" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395333708340" ignored="false" />
     <file path="/TruthAssigment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395270019810" ignored="false" />
     <file path="/model2.txt" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395341275611" ignored="false" />
@@ -22,14 +22,22 @@
     <file path="/Strategy.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395345244739" ignored="false" />
     <file path="/IntCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395491261938" ignored="false" />
     <file path="/CrossoverStrategy.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395398804494" ignored="false" />
-    <file path="/OnePointCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395400977233" ignored="false" />
+    <file path="/OnePointCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781117665" ignored="false" />
     <file path="/SelectionStrategy.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395439257742" ignored="false" />
     <file path="/SelectionSimpleElite.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395439601811" ignored="false" />
     <file path="/SelectionHAM.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395441831392" ignored="false" />
     <file path="/SelectionStrategyAbstract.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395439695734" ignored="false" />
-    <file path="/SelectionCyclic.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395490980291" ignored="false" />
+    <file path="/SelectionCyclic.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395778668475" ignored="false" />
     <file path="/PieChart.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395487579625" ignored="false" />
     <file path="/SelectionRandom.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395490921611" ignored="false" />
+    <file path="/a.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395769222138" ignored="false" />
+    <file path="/SelectionRoulette.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395775231619" ignored="false" />
+    <file path="/SelectionTournament.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395778574228" ignored="false" />
+    <file path="/model4.txt" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395779880043" ignored="false" />
+    <file path="/MaskBasedCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396342347004" ignored="false" />
+    <file path="/RandomMaskCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781659967" ignored="false" />
+    <file path="/DifferentialCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395783553224" ignored="false" />
+    <file path="/MainForm.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396265848155" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +105,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/logic/SAT_Solver.java" line="105" class="logic.SAT_Solver" package="logic">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/logic/Clause.java" line="59" class="logic.Clause" package="logic">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="X==null&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -107,31 +145,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sandbox.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sandbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.8866213">
+            <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5395034">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionCyclic.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,28 +157,25 @@
       <file leaf-file-name="SAT_Solver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logic/SAT_Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="74" selection-start="829" selection-end="829" vertical-scroll-proportion="-6.8">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#608#616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionRandom.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionRandom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="280" selection-end="295" vertical-scroll-proportion="0.0">
+            <state line="21" column="41" selection-start="468" selection-end="478" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionIndexedHAM.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionIndexedHAM.java">
+      <file leaf-file-name="CrossoverStrategy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/CrossoverStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="12" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model4.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="47" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,44 +184,35 @@
       <file leaf-file-name="OnePointCrossover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="61" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionStrategyAbstract.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionStrategyAbstract.java">
+      <file leaf-file-name="TruthAssigment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/TruthAssigment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#403#411#0" expanded="true" />
-              </folding>
+            <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionHAM.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionHAM.java">
+      <file leaf-file-name="DifferentialCrossover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="42" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntCrossover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/IntCrossover.java">
+      <file leaf-file-name="MaskBasedCrossover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="54" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="39" column="52" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -221,25 +227,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/strategy/crossover/CrossoverStrategy.java" />
-        <option value="$PROJECT_DIR$/src/debugPop1.txt" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionStrategy.java" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionSimpleElite.java" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionStrategyAbstract.java" />
-        <option value="$PROJECT_DIR$/src/satsolver/PieChart.java" />
-        <option value="$PROJECT_DIR$/src/satsolver/FitnessChart.java" />
-        <option value="$PROJECT_DIR$/debugPop1.txt" />
-        <option value="$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionIndexedHAM.java" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionHAM.java" />
         <option value="$PROJECT_DIR$/src/strategy/selection/SelectionRandom.java" />
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java" />
-        <option value="$PROJECT_DIR$/src/Sandbox.java" />
+        <option value="$PROJECT_DIR$/src/logic/Clause.java" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/IntCrossover.java" />
+        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionRoulette.java" />
+        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionTournament.java" />
+        <option value="$PROJECT_DIR$/model4.txt" />
+        <option value="$PROJECT_DIR$/src/utils/LogicHelper.java" />
+        <option value="$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java" />
+        <option value="$PROJECT_DIR$/src/strategy/crossover/RandomMaskCrossover.java" />
+        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java" />
+        <option value="$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java" />
+        <option value="$PROJECT_DIR$/src/MainForm.java" />
+        <option value="$PROJECT_DIR$/src/MainForm.form" />
+        <option value="$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java" />
+        <option value="$PROJECT_DIR$/src/Sandbox.java" />
         <option value="$PROJECT_DIR$/src/logic/SAT_Solver.java" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
@@ -254,10 +261,28 @@
             <id />
           </State>
           <State>
-            <id>General</id>
+            <id>Groovy</id>
           </State>
           <State>
-            <id>XPath</id>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>XML</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -275,6 +300,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -294,6 +321,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -449,7 +477,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,36 +486,39 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="project.propGUI" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jfreechart-1.0.17-swt.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategy.crossover" />
       <recent name="strategy.selection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GIT_DB\Dropbox\SATSOLVER" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\GIT_DB\Dropbox\SATSOLVER" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="satsolver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GIT_DB\Dropbox\SATSOLVER" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Sandbox">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -524,7 +554,21 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -551,20 +595,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -579,6 +611,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -599,6 +632,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Sandbox" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Sandbox" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -666,23 +700,29 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296199" sideWeight="0.6820728" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67966574" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32033426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.68245125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18152031" sideWeight="0.6820728" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -751,132 +791,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/jfreechart-1.0.17.jar!/org/jfree/data/xy/DefaultTableXYDataset.class">
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="795" selection-end="804" vertical-scroll-proportion="0.44533333">
+        <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jfreechart-1.0.17.jar!/org/jfree/chart/ChartFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="45" selection-start="6629" selection-end="6629" vertical-scroll-proportion="-5.64">
+        <state line="39" column="52" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jfreechart-1.0.17.jar!/org/jfree/chart/JFreeChart.class">
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="37" selection-start="3975" selection-end="3975" vertical-scroll-proportion="0.3525">
+        <state line="88" column="11" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.7941176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/LogicHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debugPop1.txt">
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/RandomMaskCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="128" selection-start="25799" selection-end="25799" vertical-scroll-proportion="0.9227273">
+        <state line="24" column="44" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionTournament.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/satsolver/FitnessChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionIndexedHAM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="37" column="14" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionStrategyAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="280" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionHAM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="187" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/IntCrossover.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="54" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="843" column="15" selection-start="28064" selection-end="28064" vertical-scroll-proportion="2.5248868">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="52" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/TruthAssigment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/SAT_Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="74" selection-start="829" selection-end="829" vertical-scroll-proportion="-6.8">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#608#616#0" expanded="true" />
-          </folding>
+        <state line="21" column="41" selection-start="468" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/CrossoverStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="61" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="61" selection-start="655" selection-end="655" vertical-scroll-proportion="0.8866213">
+        <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5395034">
           <folding />
         </state>
       </provider>
@@ -939,6 +959,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

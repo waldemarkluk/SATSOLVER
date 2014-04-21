@@ -12,20 +12,39 @@ import java.util.BitSet;
  *         Date: 16.03.14
  *         Time: 11:15
  */
+
 public class Clause {
+    /**
+     * Maska użytych zmiennych w klauzuli
+     */
     public BitSet mask=new BitSet();
+    /**
+     * Maska negacji zmiennych w klauzuli
+     */
     private BitSet value=new BitSet();
 
+    /**
+     * Domyślny konstruktor
+     */
     public Clause()
     {
 
     }
 
+    /**
+     * Dodaj term do klauzuli
+     * @param term
+     */
     public void addTerm(String term)
     {
         addTerm(term, false);
     }
 
+    /**
+     * Dodaj term do klauzli oraz określ czy jest zanegowany
+     * @param term
+     * @param negated zanegowany?
+     */
     public void addTerm(String term, boolean negated)
     {
         if(!CNF.s2Index.contains(term))
@@ -38,16 +57,10 @@ public class Clause {
     }
     public BitSet satisfiedBy(BitSet X)
     {
-       /* System.out.println(this);
-        for (int i = 0; i <CNF.s2Index.size(); i++) {
-            System.out.print(CNF.s2Index.get(i)+"="+X.get(i)+" ");
-        }
-        System.out.println("");*/
         BitSet A=(BitSet)X.clone();
         A.xor(value);
         A.flip(0,CNF.s2Index.size());
         A.and(mask);
-        //System.out.println("Ilosc spelnionych termow:"+A.cardinality());
         if(A.cardinality()>0)
         {
             CNF.cacheSatisfity(X,this,A);

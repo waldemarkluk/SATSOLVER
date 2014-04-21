@@ -3,9 +3,7 @@ package logic;
 import logic.reader.CNF;
 import satsolver.FitnessChart;
 import satsolver.PopulationComparator;
-import strategy.crossover.CrossoverStrategy;
-import strategy.crossover.IntCrossover;
-import strategy.crossover.OnePointCrossover;
+import strategy.crossover.*;
 import strategy.selection.*;
 import utils.LogicHelper;
 
@@ -25,8 +23,9 @@ public class SAT_Solver {
             new LinkedList<BitSet>();
     private int popSize=0;
     private Random rnd=new Random();
-    private CrossoverStrategy crossoverStrategy=new IntCrossover(rnd);
-    private SelectionStrategy selectionStrategy=new SelectionSimpleElite();
+    private CrossoverStrategy crossoverStrategy=new OnePointCrossover(rnd);
+    private SelectionStrategy selectionStrategy=new SelectionTournament();
+    public static int totalFitness=0;
 
     public void initDebugPopulation(int populationSize,String file)
     {
@@ -78,7 +77,7 @@ public class SAT_Solver {
     }
     private void computeStats(int tries)
     {
-        int totalFitness=0;
+        totalFitness=0;
         int maxFitness=Integer.MIN_VALUE;
         int minFitness=Integer.MAX_VALUE;
 
@@ -98,7 +97,7 @@ public class SAT_Solver {
     }
     public void solve()
     {
-        int maxTries=2000;
+        int maxTries=20000;
         int tries=0;
 
         while(CNF.totalSatisfiedCount(population.peekFirst())!=CNF.clauses.size()&&tries<maxTries)

@@ -58,7 +58,16 @@ public class LogicHelper {
     public static String toStringPadded(BitSet bs) {
         return toStringPadded(bs, CNF.s2Index.size());
     }
-
+    public static BitSet getRandomBitSet(int length)
+    {
+        Random rnd=new Random();
+        byte[] randomBytes = new byte[(int)Math.ceil((double)length/8)];
+        rnd.nextBytes(randomBytes);
+        BitSet bs=BitSet.valueOf(randomBytes);
+        //obetnij zbedne bity :)
+        bs.set(length,bs.size(),false);
+        return bs;
+    }
     public static void generateProblem()
     {
         Random rnd=new Random();
