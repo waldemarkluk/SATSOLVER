@@ -5,6 +5,7 @@ import logic.reader.CNF;
 
 import java.nio.LongBuffer;
 import java.util.BitSet;
+import java.util.LinkedList;
 import java.util.Random;
 
 /**
@@ -71,27 +72,26 @@ public class LogicHelper {
     public static void generateProblem()
     {
         Random rnd=new Random();
-        int i=0;
         String str;
         String buff="";
-        for(int j=0;j<2;j++)
+        int liczbaKlauzul=1024;
+        int liczbaTermow=6;
+        int pulaTermow=128;
+        buff+="[";
+        for(int i=0;i<liczbaKlauzul;i++)
         {
-            str=Long.toBinaryString(rnd.nextLong());
-            for(char c:str.toCharArray())
+            buff+="x"+i+",";
+        }
+        buff=buff.substring(0,buff.length()-1);
+        buff+="]\n";
+        for(int j=0;j<liczbaKlauzul;j++)
+        {
+            for(int ct=0;ct<liczbaTermow;ct++)
             {
-                if(c=='0')
-                {
-                    System.out.print("~x"+i+".");
-                    buff='1'+buff;
-                }
-                else
-                {
-                    System.out.print("x"+i+".");
-                    buff='0'+buff;
-                }
-                i++;
+
+                buff+=((rnd.nextBoolean()==true)?"~":"")+"x"+rnd.nextInt(pulaTermow)+";";
             }
-            System.out.print("\n");
+            buff=buff.substring(0,buff.length()-1)+".\n";
         }
         System.out.println(buff);
     }

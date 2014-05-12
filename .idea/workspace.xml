@@ -10,10 +10,10 @@
     <file path="/CNF_Clause.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1394964976406" ignored="false" />
     <file path="/SAT_Solver.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396425843957" ignored="false" />
     <file path="/Term.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395248852724" ignored="false" />
-    <file path="/Sandbox.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396265097294" ignored="false" />
-    <file path="/fragment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781781431" ignored="false" />
+    <file path="/Sandbox.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1399922829526" ignored="false" />
+    <file path="/fragment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1399921361417" ignored="false" />
     <file path="/Clause.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395769470999" ignored="false" />
-    <file path="/LogicHelper.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781157517" ignored="false" />
+    <file path="/LogicHelper.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1399923216580" ignored="false" />
     <file path="/model1.txt" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395333708340" ignored="false" />
     <file path="/TruthAssigment.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395270019810" ignored="false" />
     <file path="/model2.txt" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395341275611" ignored="false" />
@@ -37,7 +37,7 @@
     <file path="/MaskBasedCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396342347004" ignored="false" />
     <file path="/RandomMaskCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395781659967" ignored="false" />
     <file path="/DifferentialCrossover.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1395783553224" ignored="false" />
-    <file path="/MainForm.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1396265848155" ignored="false" />
+    <file path="/MainForm.java" changelist="0fb71e12-5316-4469-91f4-411648a08160" time="1399923768110" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -136,6 +135,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -145,28 +145,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sandbox.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sandbox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sandbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5395034">
+            <state line="32" column="10" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1006#1232#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="17" selection-start="608" selection-end="608" vertical-scroll-proportion="-1.2090517">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNF.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/reader/CNF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SAT_Solver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/SAT_Solver.java">
+      <file leaf-file-name="model1.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="41" selection-start="468" selection-end="478" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrossoverStrategy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/CrossoverStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+            <state line="4" column="23" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,43 +189,16 @@
       <file leaf-file-name="model4.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model4.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="47" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnePointCrossover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java">
+      <file leaf-file-name="LogicHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/LogicHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="61" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruthAssigment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/TruthAssigment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DifferentialCrossover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaskBasedCrossover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="52" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
+            <state line="78" column="27" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,22 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/strategy/selection/SelectionRandom.java" />
         <option value="$PROJECT_DIR$/src/logic/Clause.java" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/IntCrossover.java" />
         <option value="$PROJECT_DIR$/src/strategy/selection/SelectionRoulette.java" />
         <option value="$PROJECT_DIR$/src/strategy/selection/SelectionTournament.java" />
-        <option value="$PROJECT_DIR$/model4.txt" />
-        <option value="$PROJECT_DIR$/src/utils/LogicHelper.java" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/RandomMaskCrossover.java" />
         <option value="$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java" />
         <option value="$PROJECT_DIR$/src/MainForm.java" />
-        <option value="$PROJECT_DIR$/src/MainForm.form" />
         <option value="$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java" />
-        <option value="$PROJECT_DIR$/src/Sandbox.java" />
         <option value="$PROJECT_DIR$/src/logic/SAT_Solver.java" />
+        <option value="$PROJECT_DIR$/model4.txt" />
+        <option value="$PROJECT_DIR$/src/MainForm.form" />
+        <option value="$PROJECT_DIR$/src/utils/LogicHelper.java" />
+        <option value="$PROJECT_DIR$/src/Sandbox.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainForm.java" />
       </list>
     </option>
   </component>
@@ -321,6 +308,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -474,9 +462,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SATSOLVER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SATSOLVER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,7 +491,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propGUI" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -509,11 +514,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GIT_DB\Dropbox\SATSOLVER" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="satsolver" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GIT_DB\Dropbox\SATSOLVER" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="satsolver" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Sandbox">
@@ -669,6 +674,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -696,33 +706,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18146718" sideWeight="0.68245125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296199" sideWeight="0.6820728" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.68245125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.68245125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18152031" sideWeight="0.6820728" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24453025" sideWeight="0.68245125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -791,39 +801,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="52" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="11" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.7941176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/LogicHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/RandomMaskCrossover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionTournament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="14" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
@@ -831,73 +808,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/selection/SelectionCyclic.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="187" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/BitSet.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/javax/swing/JTabbedPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="843" column="15" selection-start="28064" selection-end="28064" vertical-scroll-proportion="2.5248868">
+        <state line="765" column="16" selection-start="26026" selection-end="26026" vertical-scroll-proportion="0.9956647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/DifferentialCrossover.java">
+    <entry file="file://$PROJECT_DIR$/src/logic/reader/CNF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="73" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/MaskBasedCrossover.java">
+    <entry file="file://$PROJECT_DIR$/doku.txy.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="52" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/awt/GridLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="11" selection-start="4360" selection-end="4360" vertical-scroll-proportion="-1.2068965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/awt/GridBagLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="487" column="11" selection-start="20073" selection-end="20073" vertical-scroll-proportion="-3.8448277">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/javax/swing/JTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="11" selection-start="6954" selection-end="6954" vertical-scroll-proportion="0.7715517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/javax/swing/JSpinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="11" selection-start="4916" selection-end="4916" vertical-scroll-proportion="0.7715517">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/TruthAssigment.java">
+    <entry file="file://$PROJECT_DIR$/model1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+        <state line="4" column="23" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/SAT_Solver.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="468" selection-end="478" vertical-scroll-proportion="0.0">
+        <state line="1901" column="18" selection-start="75216" selection-end="75216" vertical-scroll-proportion="-0.5720621">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/CrossoverStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/LogicHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/crossover/OnePointCrossover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state line="78" column="27" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5395034">
-          <folding />
+        <state line="32" column="10" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1006#1232#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="608" selection-end="608" vertical-scroll-proportion="-1.2090517">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
