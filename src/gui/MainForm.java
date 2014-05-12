@@ -77,9 +77,49 @@ public class MainForm extends JPanel{
         insertLabelTextPair(new JLabel("Ilość termów w klauzuli"),termInClauseCtrl,panel,c);
         return panel;
     }
+    private JComponent readPanel()
+    {
+        JPanel panel = new JPanel(false);
+        GridBagConstraints c = new GridBagConstraints();
+        panel.setLayout(new GridBagLayout());
+        /**
+         * Read Label
+         */
+        JLabel genLabel1=new JLabel("Wczytaj z pliku");
+        c.gridx=2;
+        c.gridy=1;
+        panel.add(genLabel1);
+
+        /**
+         *Open file button
+         */
+        JButton readfileButton = new JButton("Otwórz plik");
+        panel.add(readfileButton);
+
+        /**
+         *Read from random selection
+         */
+        JButton readrandomButton = new JButton("Wylosuj dane losowo");
+        panel.add(readrandomButton);
+
+        /**
+         *Write from input field
+         */
+        JButton readfromfieldButton = new JButton("Wczytaj");
+        panel.add(readfromfieldButton);
+
+        /**
+         * Input field
+         */
+        JTextField inputField = new JTextField("Tu możesz wpisać termy", 20);
+        panel.add(inputField);
+        //-------END-------
+        //panel
+        return panel;
+    }
     public MainForm() {
         super(new GridLayout());
-        mainTabPane.addTab("Wprowadzanie danych", makeTextPanel("PLACEHOLDER"));
+        mainTabPane.addTab("Wprowadzanie danych", readPanel());
         mainTabPane.addTab("Ustawienia", settingsPanel());
         add(mainTabPane);
         mainTabPane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
